@@ -285,11 +285,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
-        elif query.data == "about":
+        elif query.data == "about":TNMoviesChat
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/TNMoviesChat'),
+										
+                    InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/mastro_support')
                 ]
                 ]
             await query.message.edit(text="Source Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -313,8 +314,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('ᴏᴜʀ ʙᴏᴛs', url='https://t.me/telelinkgalary_3'),
+                        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/TNMoviesChat')
                     ]
                     ]
                 
@@ -345,8 +346,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me'),
+                        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇ', url='https://t.me/TNMoviesChat')
                     ]
                     ]
                 
